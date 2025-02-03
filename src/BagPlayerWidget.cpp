@@ -31,7 +31,7 @@ BagPlayerWidget::BagPlayerWidget(QWidget* parent) : QWidget(parent), _ui(std::ma
 
     connectSignals();
 
-    QIcon::setThemeName("Yaru");
+    QIcon::setThemeName("Tango");
     _ui->play_button->setIcon(QIcon::fromTheme("media-playback-start"));
     _ui->begin_button->setIcon(QIcon::fromTheme("media-skip-backward"));
     _ui->end_button->setIcon(QIcon::fromTheme("media-skip-forward"));
